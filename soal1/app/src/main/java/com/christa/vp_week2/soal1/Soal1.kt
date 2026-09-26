@@ -22,6 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
@@ -156,9 +157,9 @@ fun MusicPlayerScreen() {
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    Icons.Default.PlayArrow,
+                    Icons.Default.Pause,
                     contentDescription = "Play",
-                    tint = bgColor,
+                    tint = Color.White,
                     modifier = Modifier.size(40.dp)
                 )
             }
